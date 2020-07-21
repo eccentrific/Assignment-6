@@ -9,4 +9,7 @@ This repository contains files for Assignment 6.
 
 # Trigger Explanation 
 
-Here the trigger to check the constraint on certifications is made. It is invoked before the INSERT operation on the Author table. It checks the NEW values of certifications before insert. If the inserted new values for certificatcertifications are not present in the list of valid values it raises an exception and an error message is displayed that 'Invalid value for certification'
+The trigger definition is shown in the SQL file submitted in canvas.
+
+Here the trigger to check the constraint on certifications is made. It is invoked before the INSERT operation on the Author table. It checks the NEW values of certifications before insert. If the inserted new values for certifications are not present in the list of valid values it raises an exception and an error message is displayed that 'Invalid value for certification' and the values are not inserted into the table.
+
