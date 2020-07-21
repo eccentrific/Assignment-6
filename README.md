@@ -1,5 +1,6 @@
 # Assignment-6
 This repository contains files for Assignment 6. 
+
 1.It contains the binary database file.
 
 2.It contains the images of the data present in the tables.
